@@ -1,0 +1,20 @@
+{
+  "name": "gpt-alerting",
+  "version": "1.0.0",
+  "description": "Function Calling Demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/index.ts -o dist && cd dist && zip -r dist.zip index.js"
+  },
+  "author": "Przeprogramowani",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "16.4.5",
+    "openai": "4.29.2"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.136",
+    "@vercel/ncc": "0.38.1",
+    "typescript": "5.4.3"
+  }
+}

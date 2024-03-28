@@ -4,7 +4,8 @@
   "description": "Function Calling Demo",
   "main": "index.js",
   "scripts": {
-    "build": "ncc build src/index.ts -o dist && cd dist && zip -r dist.zip index.js"
+    "build": "ncc build src/index.ts -o dist && cd dist && zip -r dist.zip index.js",
+    "test": "node test/index.js"
   },
   "author": "Przeprogramowani",
   "license": "ISC",
